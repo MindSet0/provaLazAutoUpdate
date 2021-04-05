@@ -33,7 +33,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  MessageDlg('Versione 1', mtInformation, [mbOK], 0);
+  MessageDlg('Versione 2', mtInformation, [mbOK], 0);
 end;
 
 end.

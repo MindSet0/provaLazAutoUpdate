@@ -14,6 +14,7 @@ type
 
   TForm1 = class(TForm)
     Button1: TButton;
+    LazAutoUpdate1: TLazAutoUpdate;
     procedure Button1Click(Sender: TObject);
   private
 
@@ -32,7 +33,7 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-  MessageDlg('', mtInformation, [mbOK], 0);
+  MessageDlg('Versione 1', mtInformation, [mbOK], 0);
 end;
 
 end.
